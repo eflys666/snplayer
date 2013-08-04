@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta content='FLASH网页媒体播放器,FLASH播放器,在线flv播放器,flv播放器,MP3网页播放器,f4v网页播放器,mp4网页播放器,3gp网页播放器,wma网页播放器,AS3编写,flv播放器,在线flv,mp3,flv,f4v,mp4,3gp,aac,mov,swf,img,wma,wav,midi,FLASH' name="Keywords" />
+<meta content='这是一款用AS3编写的FLASH网页媒体播放器,可以播放Flash所支持的所有媒体格式，包括mp3、flv、f4v、mp4、3gp、aac、mov、swf、img图片，也可以播放FLASH所不支持的wma、wav、midi等格式，适用于网站制作、博客、论坛等，可以用其来制作FLV网页播放器、MP3网页播放器，mp4网页播放器、3gp网页播放器、wma网页播放器、图片播放器，FLASH播放器等!' name="Description"/>
+<title>FLASH播放器|flv播放器|网页播放器|f4v播放器|mp4播放器|3gp播放器|wma播放器-网站首页</title>
+<style type="text/css">
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+	background:#cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.dark
+{
+     background-color: Black;
+}
+.bright
+{
+    background-color: #cccccc;
+}
+</style>
+<script type="text/javascript">
+//宽屏幕
+function screenWide(){
+	document.getElementById("playerContainer").style.width = "760px";
+}
+//标准屏幕
+function screenNormal(){
+	document.getElementById("playerContainer").style.width = "572px";
+}
+//关灯
+function lightOff(){
+	document.body.className = "dark";
+}
+//开灯
+function lightOn(){
+	document.body.className = "bright";
+}
+//响应播放开始的函数
+function playstart(){
+	document.getElementById("eventInfomation").innerHTML = "事件类型：playstart，事件含义：开始播放";
+}
+//响应正在播放的函数
+function playing(){
+	document.getElementById("eventInfomation").innerHTML = "事件类型：playing，事件含义：正在播放...";
+}
+//响应暂停事件的函数
+function pause(){
+	document.getElementById("eventInfomation").innerHTML = "事件类型：pause，事件含义：暂停播放";
+}
+//响应停止播放的函数
+function stop(){
+	document.getElementById("eventInfomation").innerHTML = "事件类型：stop，事件含义：停止播放";
+}
+//响应播放结束的函数
+function playEnd(){
+	document.getElementById("eventInfomation").innerHTML = "事件类型：playEnd，事件含义：播放结束";
+}
+</script>
+</head>
+<body>
+<p align="center">
+
+<div id="playerContainer" style="width:572px; height:359px;margin:auto" >这里显示播放器</div>
+
+<script type="text/javascript" src="player/SNplayer.js">
+	
+	//实例化一个SNplayer对象
+	//name ： 填写修改后swf的文件名，如果没有修改请留空，默认为SNplayer.swf
+	//id   ： snplayer对象的id
+	//width： 播放器宽度，可以为百分比
+	//height：播放器高度，可以为百分比
+	var snplayer = new SNplayer("" , "playerid" , "100%" , "100%");
+	//设置参数
+	//设置file参数，必填项
+	snplayer.config("file" , "lists.xml");
+	//设置皮肤包
+	snplayer.config("SkinURL" , "default.zip");
+	//你还可以监听播放器广播的事件
+	//type ： 事件类型
+	//func ： 响应函数
+	snplayer.addEventListener("playstart" , playstart);
+	snplayer.addEventListener("playing" , playing);
+	snplayer.addEventListener("pause" , pause);
+	snplayer.addEventListener("stop" , stop);
+	snplayer.addEventListener("playEnd" , playEnd);
+	//将播放器写入指定的容器
+	snplayer.write("playerContainer");
+</script>
+
+
+</p>
+<p align="center" id="eventInfomation" style="color:#F00">
+</p>
+<p align="center">
+<textarea name="" cols="80" rows="13" readonly="readonly" style="font-size:12px;">
+一、将播放器文件夹拷贝到你的服务器任意目录
+二、添加以下代码到你的html页面中
+&lt;div id="playerContainer"&gt;这里显示播放器&lt;/div&gt;
+&lt;script type="text/javascript" src="你的安装目录/SNplayer.js"&gt;
+	//实例化一个SNplayer对象
+	//name ： 填写修改后swf的文件名，如果没有修改请留空，默认为SNplayer.swf
+	//id   ： snplayer对象的id
+	//width： 播放器宽度，可以为百分比
+	//height：播放器高度，可以为百分比
+	var snplayer = new SNplayer("" , "playerid" , "572" , "359");
+	//设置参数
+	//设置file参数，必填项
+	snplayer.config("file" , "lists.xml");
+	//设置皮肤包
+	snplayer.config("SkinURL" , "default.zip");
+	//你还可以监听播放器广播的事件
+	//type ： 事件类型
+	//func ： 响应函数
+	snplayer.addEventListener("playstart" , playstart);
+	snplayer.addEventListener("playing" , playing);
+	snplayer.addEventListener("pause" , pause);
+	snplayer.addEventListener("stop" , stop);
+	snplayer.addEventListener("playEnd" , playEnd);
+	//将播放器写入指定的容器
+	snplayer.write("playerContainer");
+&lt;/script&gt;
+</textarea>
+</p>
+
+</body>
+</html>

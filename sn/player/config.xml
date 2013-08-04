@@ -1,0 +1,55 @@
+﻿<!-- 
+ 注释 
+-->
+<config
+
+	AutoPlay	= 	"true"
+	RepeatAll	= 	"false"
+	RepeatOne	= 	"false"
+	Rand    	= 	"false"
+	Ctn     	= 	"true"
+	
+	SaveOption	=	"true"
+	BrokenPlay	=	"true"
+	autoLevel	=	"false"
+
+	logo		=	""
+	
+	ErrorBackLink	=	"errorReport.php"
+	sinaKey		=	""
+	fileLoadLink	=	"fileload.php"
+
+	DefaultVol 	= 	"50"
+
+	FileUrl		= 	""
+	file		= 	"jzyf.xml"
+	list		=	""
+	
+	SkinURL		= 	"skin/sohu2.zip"
+
+
+	LinkNum		= 	"1"
+	LinkTimeOut	=	"30"
+	
+	JSenable 	= 	"false"
+
+	iaopen	        =	"true"
+	iapreopen	=	"true"
+	iapriopen	=	"true"
+	iaproopen	=	"true"
+	iapauseopen	=	"true"
+	iaoverlayopen	=	"true"
+	iastopopen	=	"true"
+	iaerroropen	=	"true"
+	iaVolume	=	"100"
+	iaTimeOut	=	"10"
+
+	googleIMApublisherId	=	""
+	googleIMAurl		=	""
+	googleIMAchannels	=	""
+
+	CustomerID	=	""
+	Counter		=	""
+
+	BufferTime	= 	"5"
+/>

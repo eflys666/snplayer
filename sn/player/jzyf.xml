@@ -1,0 +1,61 @@
+﻿<!-- 
+	m标记：一首媒体，一首媒体可能带有多个属性。
+-->
+<list>
+<m  url="http://player.youku.com/player.php/sid/XNTc4NzczNDM2/v.swf/.y" title="精忠岳飞 01"/> 
+<m  url="http://player.youku.com/player.php/sid/XNTc4ODI5Nzg4/v.swf/.y" title="精忠岳飞 02"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTc5MTgwMjQ0/v.swf" title="精忠岳飞 03"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTc5MjMwNTAw/v.swf" title="精忠岳飞 04"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTc5NTk2Njg0/v.swf" title="精忠岳飞 05"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTc5NTk4MjIw/v.swf" title="精忠岳飞 06"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwMDEwNzA4/v.swf" title="精忠岳飞 07"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTc5OTg0NTQ0/v.swf" title="精忠岳飞 08"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTc5OTc2MTQ0/v.swf" title="精忠岳飞 09"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwNDUzNDcy/v.swf" title="精忠岳飞 10"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwNDU1NTUy/v.swf" title="精忠岳飞 11"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwNDUxNTQw/v.swf" title="精忠岳飞 12"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwNzQ0NDk2/v.swf" title="精忠岳飞 13"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwNzY0MjQ4/v.swf" title="精忠岳飞 14"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgwNzgyOTE2/v.swf" title="精忠岳飞 15"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxMTg1MTE2/v.swf" title="精忠岳飞 16"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxMjQxODcy/v.swf" title="精忠岳飞 17"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxMjYxODU2/v.swf" title="精忠岳飞 18"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxNTk0NTQ4/v.swf" title="精忠岳飞 19"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxNTk3MTc2/v.swf" title="精忠岳飞 20"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxNzUyMjY4/v.swf" title="精忠岳飞 21"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxOTc4NTMy/v.swf" title="精忠岳飞 22"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgxOTk3OTI0/v.swf" title="精忠岳飞 23"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgyNDU2NTUy/v.swf" title="精忠岳飞 24"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgyNDYwMzY0/v.swf" title="精忠岳飞 25"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgyNDYzNjE2/v.swf" title="精忠岳飞 26"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgyNzg1NzYw/v.swf" title="精忠岳飞 27"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgyNzg3Mjc2/v.swf" title="精忠岳飞 28"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgzMjc3NjQw/v.swf" title="精忠岳飞 29"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgzMTc3MTE2/v.swf" title="精忠岳飞 30"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgzMTgwMDQ0/v.swf" title="精忠岳飞 31"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgzNjM2MTg0/v.swf" title="精忠岳飞 32"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgzNjM5MTky/v.swf" title="精忠岳飞 33"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTgzNzAyMDIw/v.swf" title="精忠岳飞 34"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0MTg0OTky/v.swf" title="精忠岳飞 35"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0MTg3MDY0/v.swf" title="精忠岳飞 36"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0MTg4ODYw/v.swf" title="精忠岳飞 37"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0NjY2Njgw/v.swf" title="精忠岳飞 38"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0NjY0MzA4/v.swf" title="精忠岳飞 39"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0NzAzMjMy/v.swf" title="精忠岳飞 40"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0OTMzNDg4/v.swf" title="精忠岳飞 41"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg0OTg5ODY4/v.swf" title="精忠岳飞 42"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg1MzA5MzQw/v.swf" title="精忠岳飞 43"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg1Mzk4MzAw/v.swf" title="精忠岳飞 44"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg1MzEyNjA0/v.swf" title="精忠岳飞 45"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg1NjYyNDcy/v.swf" title="精忠岳飞 46"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg1NjY0OTYw/v.swf" title="精忠岳飞 47"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2MTY5Njc2/v.swf" title="精忠岳飞 48"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2MTczMzA4/v.swf" title="精忠岳飞 49"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2MjQ1MDU2/v.swf" title="精忠岳飞 50"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2NzEwMDg0/v.swf" title="精忠岳飞 51"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2NzE2MzI0/v.swf" title="精忠岳飞 52"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2NzIxMDg4/v.swf" title="精忠岳飞 53"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2OTcxMzgw/v.swf" title="精忠岳飞 54"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg2OTc0MzA4/v.swf" title="精忠岳飞 55"/> 
+<m type="youku"  url="http://player.youku.com/player.php/sid/XNTg3MDU3NTg0/v.swf" title="精忠岳飞 56"/> 
+</list>
